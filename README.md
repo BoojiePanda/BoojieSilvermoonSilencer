@@ -13,6 +13,12 @@ Boojie Silvermoon Silencer hides chat messages from selected Silvermoon NPCs in 
 
 ## Important
 
+It does not silence NPC voices or other game audio.
+
+The addon is not intended to block or ignore other players. It is designed for chatty NPCs you would not otherwise interact with.
+
+![Example of nearby Silvermoon NPC dialogue in the chat box](images/silvermoon-npc-chat-example.png)
+
 The filter only hides messages whose sender exactly matches a name in the saved list. It does not modify or delete Blizzard chat data.
 
 ## Settings
