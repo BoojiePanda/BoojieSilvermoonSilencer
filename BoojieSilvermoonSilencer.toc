@@ -2,9 +2,9 @@
 ## Title: |cFFFF8DA1Boojie Silvermoon Silencer|r
 ## Notes: Hides chat messages from selected Silvermoon NPCs.
 ## Author: SilverRavyn
-## Version: 1.1.2
+## Version: 1.1.3
 ## Category: Quality of Life
-## IconTexture: Interface\AddOns\BoojieSilvermoonSilencer\BoojieSilvermoonSilencerIcon.png
+## IconTexture: Interface\AddOns\BoojieSilvermoonSilencer\BoojieSilvermoonSilencerBSSIcon.png
 ## SavedVariables: BoojieSilvermoonSilencerDB, SilvermoonSilencerDB
 
 Libs\LibStub\LibStub.lua

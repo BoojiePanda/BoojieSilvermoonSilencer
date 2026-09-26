@@ -5,7 +5,7 @@ Boojie Silvermoon Silencer hides chat messages from selected Silvermoon NPCs in 
 ## Features
 
 - Filters chat messages by exact NPC sender name
-- Includes Household Attendant, Silvermoon Attendant, Silvermoon Resident, and Silvermoon Truthsayer by default
+- Includes Household Attendant, Silvermoon Attendant, Silvermoon Noble, Silvermoon Resident, and Silvermoon Truthsayer by default
 - Add and remove NPC names from a saved ignore list
 - Movable Boojie-style settings window
 - LibDataBroker minimap button with a visibility setting

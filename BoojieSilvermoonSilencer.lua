@@ -1,8 +1,8 @@
 local ADDON_NAME = ...
 
 local TITLE = "Boojie Silvermoon Silencer"
-local VERSION = C_AddOns.GetAddOnMetadata(ADDON_NAME, "Version") or "1.1.2"
-local ICON = "Interface\\AddOns\\BoojieSilvermoonSilencer\\BoojieSilvermoonSilencerIcon.png"
+local VERSION = C_AddOns.GetAddOnMetadata(ADDON_NAME, "Version") or ""
+local ICON = "Interface\\AddOns\\BoojieSilvermoonSilencer\\BoojieSilvermoonSilencerBSSIcon.png"
 local LDB_NAME = "BoojieSilvermoonSilencer"
 local PINK_HEX = "FFFF8DA1"
 local PINK_R, PINK_G, PINK_B = 1, 0.553, 0.631
@@ -10,6 +10,7 @@ local PINK_R, PINK_G, PINK_B = 1, 0.553, 0.631
 local DEFAULT_NPCS = {
     ["Household Attendant"] = true,
     ["Silvermoon Attendant"] = true,
+    ["Silvermoon Noble"] = true,
     ["Silvermoon Resident"] = true,
     ["Silvermoon Truthsayer"] = true,
 }
@@ -51,6 +52,11 @@ local function InitializeDatabase()
             db.npcs[name] = true
         end
         db.initialized = true
+    end
+
+    if type(db.defaultsVersion) ~= "number" or db.defaultsVersion < 2 then
+        db.npcs["Silvermoon Noble"] = true
+        db.defaultsVersion = 2
     end
 end
 
