@@ -21,6 +21,8 @@ Open Settings with the minimap button or `/sms`.
 
 You can add NPC names, select and remove saved names, and show or hide the minimap button.
 
+![Boojie Silvermoon Silencer settings window](images/boojie-silvermoon-silencer-settings.png)
+
 ## Installation
 
 1. Download the zip file and unarchive it.
